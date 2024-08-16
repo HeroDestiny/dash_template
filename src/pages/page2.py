@@ -1,7 +1,6 @@
 import dash
 import dash_bootstrap_components as dbc
-import plotly.express as px
-from dash import dash_table, dcc, html
+from dash import dash_table, html
 
 from graficos.graph import data_table
 

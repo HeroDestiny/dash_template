@@ -27,8 +27,7 @@ def filtrar(df: pd.DataFrame, ano: int = None, mes: int = None) -> pd.DataFrame:
     return df
 
 
-def grafico_por_total(ano: int = None, mes: int = None) -> px.bar:
-
+def grafico_por_total(ano: int = None, mes: int = None) -> px.pie:
     df_filtrado = filtrar(df, ano, mes)
     contagem_setor = df_filtrado.groupby("setor").count().reset_index()
     return px.pie(contagem_setor, names="setor", values="entrada")
@@ -71,13 +70,13 @@ def contagem_text(ano: int = None, mes: int = None) -> str:
     total_entradas = df_filtrado.shape[0]
     return f"Total de Entradas: {total_entradas}"
 
+
 def mes_text(mes: int = None) -> str:
     if mes is None:
         return "Mês: Todos"
-    elif isinstance(mes, int) and 1 <= mes <= 12:
-        return f"Mês: {calendar.month_name[mes]}"
     else:
-        return "Mês: Inválido"
+        return f"Mês: {mes}"
+
 
 def ano_text(ano: int = None) -> str:
     if ano is None:
@@ -85,7 +84,7 @@ def ano_text(ano: int = None) -> str:
     else:
         return f"Ano: {ano}"
 
+
 def data_table(ano: int = None, mes: int = None) -> pd.DataFrame:
     df_filtrado = filtrar(df, ano, mes)
-    df_filtrado = df_filtrado[["nome", "entrada", "saida", "setor"]]
-    return df_filtrado
+    return df_filtrado[["nome", "entrada", "saida", "setor"]]

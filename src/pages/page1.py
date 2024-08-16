@@ -1,15 +1,9 @@
 import dash
 import dash_bootstrap_components as dbc
-from dash import Input, Output, dcc, html
+from dash import dcc, html
 
-from graficos.graph import (
-    grafico_por_mes,
-    grafico_por_timeline,
-    grafico_por_total,
-    contagem_text,
-    mes_text,
-    ano_text,
-)
+from graficos.graph import (ano_text, contagem_text, grafico_por_mes,
+                            grafico_por_timeline, grafico_por_total, mes_text)
 
 dash.register_page(__name__, path="/")
 
@@ -104,25 +98,3 @@ layout = html.Div(
         ),
     ]
 )
-
-
-@dash.callback(
-    [
-        Output("grafico-total", "figure"),
-        Output("grafico-mes", "figure"),
-        Output("grafico-timeline", "figure"),
-        Output("entradas-texto", "children"),
-        Output("mes-texto", "children"),
-        Output("ano-texto", "children"),
-    ],
-    [Input("ano-dropdown", "value"), Input("mes-dropdown", "value")],
-)
-def update_graficos(ano: int, mes: int) -> tuple:
-    return (
-        grafico_por_total(ano, mes),
-        grafico_por_mes(ano, mes),
-        grafico_por_timeline(ano),
-        contagem_text(ano, mes),
-        mes_text(mes),
-        ano_text(ano),
-    )
