@@ -2,8 +2,14 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 
-from graficos.graph import (ano_text, contagem_text, grafico_por_mes,
-                            grafico_por_timeline, grafico_por_total, mes_text)
+from graficos.graph import (
+    ano_text,
+    contagem_text,
+    grafico_por_mes,
+    grafico_por_timeline,
+    grafico_por_total,
+    mes_text,
+)
 
 dash.register_page(__name__, path="/")
 
@@ -57,7 +63,7 @@ layout = html.Div(
                                     )
                                 ),
                             ],
-                            width=9,
+                            width=12,
                         ),
                         dbc.Col(
                             [
@@ -91,6 +97,17 @@ layout = html.Div(
                                 ),
                             ],
                             width=3,
+                        ),
+                        dbc.Col(
+                            dbc.Card(
+                                dbc.CardBody(
+                                    [
+                                        html.H4("Grafico 2", className="card-title"),
+                                        dcc.Graph(id="grafico-2"),
+                                    ]
+                                )
+                            ),
+                            width=9,
                         ),
                     ]
                 ),

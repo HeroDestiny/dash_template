@@ -16,6 +16,8 @@ df["data"] = df["entrada"].dt.to_period("M").astype(str)
 
 meses = {calendar.month_name[i].lower(): i for i in range(1, 13)}
 
+print(df)
+
 
 def filtrar(df: pd.DataFrame, ano: int = None, mes: int = None) -> pd.DataFrame:
 
@@ -27,10 +29,15 @@ def filtrar(df: pd.DataFrame, ano: int = None, mes: int = None) -> pd.DataFrame:
     return df
 
 
-def grafico_por_total(ano: int = None, mes: int = None) -> px.pie:
+def grafico_pizza(
+    nome: str, valor: str, groupby: str, ano: int = None, mes: int = None
+) -> px.pie:
+
     df_filtrado = filtrar(df, ano, mes)
-    contagem_setor = df_filtrado.groupby("setor").count().reset_index()
-    return px.pie(contagem_setor, names="setor", values="entrada")
+
+    contagem = df_filtrado.groupby(groupby).count().reset_index()
+
+    return px.pie(contagem, names=nome, values=valor)
 
 
 def grafico_por_mes(ano: int = None, mes: int = None) -> px.bar:
