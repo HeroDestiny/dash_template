@@ -2,20 +2,78 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 
-from graficos.graph import (
-    ano_text,
-    contagem_text,
-    grafico_por_mes,
-    grafico_por_timeline,
-    grafico_por_total,
-    mes_text,
-)
-
 dash.register_page(__name__, path="/")
 
 
 layout = html.Div(
     [
+        dbc.Row(
+            [
+                dbc.CardGroup(
+                    [
+                        dbc.Col(
+                            [
+                                dbc.Card(
+                                    dbc.CardBody(
+                                        [
+                                            html.H4(
+                                                className="card-title",
+                                                id="entradas-texto",
+                                            ),
+                                        ]
+                                    ),
+                                ),
+                            ],
+                            width=4,
+                        ),
+                        dbc.Col(
+                            [
+                                dbc.Card(
+                                    dbc.CardBody(
+                                        [
+                                            html.H4(
+                                                id="mes-texto", className="card-title"
+                                            ),
+                                        ]
+                                    ),
+                                ),
+                            ],
+                            width=4,
+                        ),
+                        dbc.Col(
+                            [
+                                dbc.Card(
+                                    dbc.CardBody(
+                                        [
+                                            html.H4(
+                                                id="ano-texto", className="card-title"
+                                            ),
+                                        ]
+                                    ),
+                                ),
+                            ],
+                            width=4,
+                        ),
+                        dbc.Col(
+                            [
+                                dbc.Card(
+                                    dbc.CardBody(
+                                        [
+                                            html.H4(
+                                                "Entrada por Setor",
+                                                className="card-title",
+                                            ),
+                                            dcc.Graph(id="grafico-timeline"),
+                                        ]
+                                    )
+                                ),
+                            ],
+                            width=12,
+                        ),
+                    ]
+                ),
+            ],
+        ),
         dbc.Row(
             dbc.Col(
                 dbc.CardGroup(
@@ -44,74 +102,6 @@ layout = html.Div(
                 ),
                 width=12,
             )
-        ),
-        dbc.Row(
-            [
-                dbc.CardGroup(
-                    [
-                        dbc.Col(
-                            [
-                                dbc.Card(
-                                    dbc.CardBody(
-                                        [
-                                            html.H4(
-                                                "Entrada por Setor",
-                                                className="card-title",
-                                            ),
-                                            dcc.Graph(id="grafico-timeline"),
-                                        ]
-                                    )
-                                ),
-                            ],
-                            width=12,
-                        ),
-                        dbc.Col(
-                            [
-                                dbc.Card(
-                                    dbc.CardBody(
-                                        [
-                                            html.H4(
-                                                className="card-text",
-                                                id="entradas-texto",
-                                            ),
-                                        ]
-                                    ),
-                                ),
-                                dbc.Card(
-                                    dbc.CardBody(
-                                        [
-                                            html.H4(
-                                                id="mes-texto", className="card-title"
-                                            ),
-                                        ]
-                                    ),
-                                ),
-                                dbc.Card(
-                                    dbc.CardBody(
-                                        [
-                                            html.H4(
-                                                id="ano-texto", className="card-title"
-                                            ),
-                                        ]
-                                    ),
-                                ),
-                            ],
-                            width=3,
-                        ),
-                        dbc.Col(
-                            dbc.Card(
-                                dbc.CardBody(
-                                    [
-                                        html.H4("Grafico 2", className="card-title"),
-                                        dcc.Graph(id="grafico-2"),
-                                    ]
-                                )
-                            ),
-                            width=9,
-                        ),
-                    ]
-                ),
-            ],
         ),
     ]
 )

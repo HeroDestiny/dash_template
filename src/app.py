@@ -27,4 +27,5 @@ app.layout = html.Div(
 
 # Executando o aplicativo
 if __name__ == "__main__":
+    # app.run_server(host='10.19.1.64',port=8050, debug=True)
     app.run_server(debug=True)

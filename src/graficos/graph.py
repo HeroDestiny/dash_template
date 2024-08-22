@@ -4,94 +4,92 @@ import locale
 import pandas as pd
 import plotly.express as px
 
-locale.setlocale(locale.LC_TIME, "pt_BR")
+locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
 
 from connection import fetch_data_from_mysql
 
-df = fetch_data_from_mysql()
 
-df["entrada"] = pd.to_datetime(df["entrada"])
+class Grafico:
+    def __init__(self):
+        self.df = fetch_data_from_mysql()
+        self.df["entrada"] = pd.to_datetime(self.df["entrada"])
+        self.df["data"] = self.df["entrada"].dt.to_period("M").astype(str)
+        self.meses = {calendar.month_name[i].lower(): i for i in range(1, 13)}
 
-df["data"] = df["entrada"].dt.to_period("M").astype(str)
+    def filtrar(self, ano: int = None, mes: int = None) -> pd.DataFrame:
+        df = self.df
+        if ano:
+            df = df[df["entrada"].dt.year == ano]
 
-meses = {calendar.month_name[i].lower(): i for i in range(1, 13)}
+        if mes:
+            mes_numero = self.meses[mes.lower()]
+            df = df[df["entrada"].dt.month == mes_numero]
+        return df
 
-print(df)
+    def contar(self, df: pd.DataFrame, group: str, nome: str) -> pd.DataFrame:
+        return df.groupby(group).size().reset_index(name=nome)
 
+    def pizza(
+        self, nome: str, valor: str, label_nome: str, ano: int = None, mes: int = None
+    ) -> px.pie:
+        df_filtrado = self.filtrar(ano, mes)
+        contagem = self.contar(df_filtrado, nome, valor)
+        return px.pie(contagem, names=nome, values=valor, labels={nome: label_nome})
 
-def filtrar(df: pd.DataFrame, ano: int = None, mes: int = None) -> pd.DataFrame:
+    def barra(
+        self,
+        nome: str,
+        valor: str,
+        group: str,
+        rotulos: dict,
+        ano: int = None,
+        mes: int = None,
+        cor: str = None,
+    ) -> px.bar:
+        df_filtrado = self.filtrar(ano, mes)
+        contagem = self.contar(df_filtrado, group, valor)
+        contagem[nome] = pd.to_datetime(contagem[nome]).dt.strftime("%b %Y")
 
-    if ano:
-        df = df[df["entrada"].dt.year == ano]
-    if mes:
-        mes_numero = meses[mes.lower()]
-        df = df[df["entrada"].dt.month == mes_numero]
-    return df
+        if cor is None:
+            cor = nome
+        else:
+            cor = cor
 
+        return px.bar(
+            contagem,
+            x=nome,
+            y=valor,
+            color=cor,
+            labels=rotulos,
+        )
 
-def grafico_pizza(
-    nome: str, valor: str, groupby: str, ano: int = None, mes: int = None
-) -> px.pie:
+    def timeline(
+        self, nome: str, valor: str, group: str, rotulos: dict, cor: str, ano: int = None
+    ) -> px.line:
+        df_filtrado = self.filtrar(ano)
 
-    df_filtrado = filtrar(df, ano, mes)
+        contagem = self.contar(df_filtrado, group, valor)
+        contagem[nome] = pd.to_datetime(contagem[nome]).dt.strftime("%m/%Y")
 
-    contagem = df_filtrado.groupby(groupby).count().reset_index()
+        return px.line(
+            contagem,
+            x=nome,
+            y=valor,
+            color=cor,
+            labels=rotulos,
+        )
 
-    return px.pie(contagem, names=nome, values=valor)
+    def contagem(self, texto: str, ano: int = None, mes: int = None) -> str:
+        df_filtrado = self.filtrar(ano, mes)
+        total_entradas = df_filtrado.shape[0]
+        return f"{texto} {total_entradas}"
 
+    def texto(self, texto: str, valor: int = None) -> str:
+        if valor is None:
+            return f"{texto} Todos"
+        else:
+            return f"{texto} {valor}"
 
-def grafico_por_mes(ano: int = None, mes: int = None) -> px.bar:
-
-    df_filtrado = filtrar(df, ano, mes)
-
-    contagem_mes = df_filtrado.groupby("data").size().reset_index(name="contagem")
-
-    contagem_mes["data"] = pd.to_datetime(contagem_mes["data"]).dt.strftime("%b %Y")
-
-    return px.bar(contagem_mes, x="data", y="contagem", color="data")
-
-
-def grafico_por_timeline(ano: int = None) -> px.line:
-    # Filtrar o DataFrame com base no ano e mês fornecidos
-    df_filtrado = filtrar(df, ano)
-
-    # Agrupar os dados filtrados por setor e data e contar o número de entradas
-    contagem_setor = df_filtrado.groupby(["setor", "data"]).count().reset_index()
-
-    return px.line(
-        contagem_setor,
-        x="data",
-        y="entrada",
-        color="setor",
-        line_shape="spline",
-        labels={
-            "setor": "País",
-            "entrada": "Número de Entradas",
-            "data": "Data da Entrada",
-        },
-    )
-
-
-def contagem_text(ano: int = None, mes: int = None) -> str:
-    df_filtrado = filtrar(df, ano, mes)
-    total_entradas = df_filtrado.shape[0]
-    return f"Total de Entradas: {total_entradas}"
-
-
-def mes_text(mes: int = None) -> str:
-    if mes is None:
-        return "Mês: Todos"
-    else:
-        return f"Mês: {mes}"
-
-
-def ano_text(ano: int = None) -> str:
-    if ano is None:
-        return "Ano: Todos"
-    else:
-        return f"Ano: {ano}"
-
-
-def data_table(ano: int = None, mes: int = None) -> pd.DataFrame:
-    df_filtrado = filtrar(df, ano, mes)
-    return df_filtrado[["nome", "entrada", "saida", "setor"]]
+    def data_table(self, ano: int = None, mes: int = None) -> pd.DataFrame:
+        df_filtrado = self.filtrar(ano, mes)
+        return df_filtrado[["nome", "entrada", "saida", "setor"]]

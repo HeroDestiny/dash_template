@@ -2,11 +2,12 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dash_table, html
 
-from graficos.graph import data_table
+from graficos.graph import Grafico
 
 # Registra a página
 dash.register_page(__name__, path="/page-2")
 
+grafico = Grafico()
 # Layout da Página 1
 layout = html.Div(
     [
@@ -18,9 +19,10 @@ layout = html.Div(
                         dash_table.DataTable(
                             id="table",
                             columns=[
-                                {"name": i, "id": i} for i in data_table().columns
+                                {"name": i, "id": i}
+                                for i in grafico.data_table().columns
                             ],
-                            data=data_table().to_dict("records"),
+                            data=grafico.data_table().to_dict("records"),
                             filter_action="native",  # Adiciona filtros nativos à tabela
                             style_table={
                                 "overflowX": "auto",  # Adiciona rolagem horizontal se necessário

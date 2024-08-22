@@ -1,16 +1,10 @@
 from dash import Input, Output, html
+
 from app import app
-
-from graficos.graph import (
-    ano_text,
-    contagem_text,
-    grafico_por_mes,
-    grafico_por_timeline,
-    grafico_pizza,
-    mes_text,
-)
-
+from graficos.graph import Grafico
 from layouts.filterbar import filter_bar
+
+grafico = Grafico()
 
 
 # chamada de função para atualizar as rotas
@@ -41,17 +35,34 @@ def update_ui(pathname):
         Output("entradas-texto", "children"),
         Output("mes-texto", "children"),
         Output("ano-texto", "children"),
-        Output("grafico-2", "figure"),
     ],
     [Input("ano-dropdown", "value"), Input("mes-dropdown", "value")],
 )
 def update_graficos(ano: int, mes: int) -> tuple:
     return (
-        grafico_pizza("setor", "entrada", "setor", ano, mes),
-        grafico_por_mes(ano, mes),
-        grafico_por_timeline(ano),
-        contagem_text(ano, mes),
-        mes_text(mes),
-        ano_text(ano),
-        grafico_pizza("data", "entrada", "data", ano, mes),
+        grafico.pizza("setor", "entrada", "País", ano, mes),
+        # grafico_barra("data", "entrada", "Data", "Entradas", "data", ano, mes),
+        grafico.barra(
+            "data", "entrada", "data", {"data": "Data", "entrada": "Entradas"}, ano
+        ),
+        grafico.barra(
+            "data",
+            "entrada",
+            ["setor", "data"],
+            {"setor": "País", "data": "Data", "entrada": "Número de Entradas"},
+            ano,
+            None,
+            "setor",
+        ),
+        # grafico.timeline(
+        #     "data",
+        #     "entrada",
+        #     ["setor","data"],
+        #     {"setor": "País", "data": "Data", "entrada": "Entradas"},
+        #     "setor",
+        #     ano,
+        # ),
+        grafico.contagem("Total de Entradas:", ano, mes),
+        grafico.texto("Mês:", mes),
+        grafico.texto("Ano:", ano),
     )
