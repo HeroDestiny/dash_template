@@ -68,7 +68,22 @@ layout = html.Div(
                                     )
                                 ),
                             ],
-                            width=12,
+                            width=6,
+                        ),
+                        dbc.Col(
+                            [
+                                dbc.Card(
+                                    dbc.CardBody(
+                                        [
+                                            html.H4(
+                                                "Mapa", className="card-title"
+                                            ),
+                                            dcc.Graph(id="grafico-mapa"),
+                                        ]
+                                    )
+                                ),
+                            ],
+                            width=6,
                         ),
                     ]
                 ),

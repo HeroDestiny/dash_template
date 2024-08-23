@@ -12,61 +12,61 @@ layout = html.Div(
             dbc.Col(
                 dbc.CardGroup(
                     [
-                        dbc.Card(
-                            dbc.CardBody(
-                                [
-                                    html.H4("GRAFICO 1", className="card-title"),
-                                    html.P("LEGENDA 1", className="card-text"),
-                                    dcc.Graph(id="numero-1"),
-                                ]
-                            )
-                        ),
-                        dbc.Card(
-                            dbc.CardBody(
-                                [
-                                    html.H4("GRAFICO 2", className="card-title"),
-                                    html.P(
-                                        "LEGENDA 2",
-                                        className="card-text",
-                                    ),
-                                    dcc.Graph(id="numero-2"),
-                                ]
-                            )
-                        ),
+                        # dbc.Card(
+                        #     dbc.CardBody(
+                        #         [
+                        #             html.H4("GRAFICO 1", className="card-title"),
+                        #             html.P("LEGENDA 1", className="card-text"),
+                        #             dcc.Graph(id="grafico-mapa"),
+                        #         ]
+                        #     )
+                        # ),
+                        # dbc.Card(
+                        #     dbc.CardBody(
+                        #         [
+                        #             html.H4("GRAFICO 2", className="card-title"),
+                        #             html.P(
+                        #                 "LEGENDA 2",
+                        #                 className="card-text",
+                        #             ),
+                        #             dcc.Graph(id="numero-2"),
+                        #         ]
+                        #     )
+                        # ),
                     ]
                 ),
-                width=12,
+                width=6,
             )
         ),
-        dbc.Row(
-            dbc.Col(
-                dbc.CardGroup(
-                    [
-                        dbc.Card(
-                            dbc.CardBody(
-                                [
-                                    html.H4("GRAFICO 3", className="card-title"),
-                                    html.P("LEGENDA 3", className="card-text"),
-                                    dcc.Graph(id="numero-3"),
-                                ]
-                            )
-                        ),
-                        dbc.Card(
-                            dbc.CardBody(
-                                [
-                                    html.H4("GRAFICO 4", className="card-title"),
-                                    html.P(
-                                        "LEGENDA 4",
-                                        className="card-text",
-                                    ),
-                                    dcc.Graph(id="numero-4"),
-                                ]
-                            )
-                        ),
-                    ]
-                ),
-                width=12,
-            )
-        ),
+        # dbc.Row(
+        #     dbc.Col(
+        #         dbc.CardGroup(
+        #             [
+        #                 dbc.Card(
+        #                     dbc.CardBody(
+        #                         [
+        #                             html.H4("GRAFICO 3", className="card-title"),
+        #                             html.P("LEGENDA 3", className="card-text"),
+        #                             dcc.Graph(id="numero-3"),
+        #                         ]
+        #                     )
+        #                 ),
+        #                 dbc.Card(
+        #                     dbc.CardBody(
+        #                         [
+        #                             html.H4("GRAFICO 4", className="card-title"),
+        #                             html.P(
+        #                                 "LEGENDA 4",
+        #                                 className="card-text",
+        #                             ),
+        #                             dcc.Graph(id="numero-4"),
+        #                         ]
+        #                     )
+        #                 ),
+        #             ]
+        #         ),
+        #         width=12,
+        #     )
+        # ),
     ]
 )
