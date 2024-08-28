@@ -1,0 +1,1171 @@
+[
+    {
+        "CD_MUN": "2400109",
+        "NM_MUN": "Acari",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4093758132,
+        "longitude": -36.6501160852
+    },
+    {
+        "CD_MUN": "2400208",
+        "NM_MUN": "A\u00e7u",
+        "SIGLA_UF": "RN",
+        "latitude": -5.5266868743,
+        "longitude": -37.0141118347
+    },
+    {
+        "CD_MUN": "2400307",
+        "NM_MUN": "Afonso Bezerra",
+        "SIGLA_UF": "RN",
+        "latitude": -5.4714412141,
+        "longitude": -36.5998903605
+    },
+    {
+        "CD_MUN": "2400406",
+        "NM_MUN": "\u00c1gua Nova",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2086252585,
+        "longitude": -38.308643795
+    },
+    {
+        "CD_MUN": "2400505",
+        "NM_MUN": "Alexandria",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3644993416,
+        "longitude": -37.989197577
+    },
+    {
+        "CD_MUN": "2400604",
+        "NM_MUN": "Almino Afonso",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1544937732,
+        "longitude": -37.7629731473
+    },
+    {
+        "CD_MUN": "2400703",
+        "NM_MUN": "Alto do Rodrigues",
+        "SIGLA_UF": "RN",
+        "latitude": -5.3623318463,
+        "longitude": -36.7236190735
+    },
+    {
+        "CD_MUN": "2400802",
+        "NM_MUN": "Angicos",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6463050816,
+        "longitude": -36.5572303672
+    },
+    {
+        "CD_MUN": "2400901",
+        "NM_MUN": "Ant\u00f4nio Martins",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2196185459,
+        "longitude": -37.9247828035
+    },
+    {
+        "CD_MUN": "2401008",
+        "NM_MUN": "Apodi",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6283387696,
+        "longitude": -37.8356726923
+    },
+    {
+        "CD_MUN": "2401107",
+        "NM_MUN": "Areia Branca",
+        "SIGLA_UF": "RN",
+        "latitude": -5.0011815233,
+        "longitude": -37.0462559495
+    },
+    {
+        "CD_MUN": "2401206",
+        "NM_MUN": "Ar\u00eas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1936877088,
+        "longitude": -35.2081758971
+    },
+    {
+        "CD_MUN": "2401305",
+        "NM_MUN": "Campo Grande",
+        "SIGLA_UF": "RN",
+        "latitude": -5.8803521834,
+        "longitude": -37.3242864916
+    },
+    {
+        "CD_MUN": "2401404",
+        "NM_MUN": "Ba\u00eda Formosa",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4347410457,
+        "longitude": -35.044892563
+    },
+    {
+        "CD_MUN": "2401453",
+        "NM_MUN": "Bara\u00fana",
+        "SIGLA_UF": "RN",
+        "latitude": -5.0928189155,
+        "longitude": -37.6183443284
+    },
+    {
+        "CD_MUN": "2401503",
+        "NM_MUN": "Barcelona",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9611028836,
+        "longitude": -35.9220244726
+    },
+    {
+        "CD_MUN": "2401602",
+        "NM_MUN": "Bento Fernandes",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6759114114,
+        "longitude": -35.8118738533
+    },
+    {
+        "CD_MUN": "2401651",
+        "NM_MUN": "Bod\u00f3",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9629114912,
+        "longitude": -36.4417461547
+    },
+    {
+        "CD_MUN": "2401701",
+        "NM_MUN": "Bom Jesus",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0008184702,
+        "longitude": -35.5907938461
+    },
+    {
+        "CD_MUN": "2401800",
+        "NM_MUN": "Brejinho",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2181754465,
+        "longitude": -35.3835876268
+    },
+    {
+        "CD_MUN": "2401859",
+        "NM_MUN": "Cai\u00e7ara do Norte",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1918507875,
+        "longitude": -36.0832952192
+    },
+    {
+        "CD_MUN": "2401909",
+        "NM_MUN": "Cai\u00e7ara do Rio do Vento",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7660921945,
+        "longitude": -36.0264623231
+    },
+    {
+        "CD_MUN": "2402006",
+        "NM_MUN": "Caic\u00f3",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4676100403,
+        "longitude": -37.0379522651
+    },
+    {
+        "CD_MUN": "2402105",
+        "NM_MUN": "Campo Redondo",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2377114041,
+        "longitude": -36.2088952568
+    },
+    {
+        "CD_MUN": "2402204",
+        "NM_MUN": "Canguaretama",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3950973652,
+        "longitude": -35.1484606658
+    },
+    {
+        "CD_MUN": "2402303",
+        "NM_MUN": "Cara\u00fabas",
+        "SIGLA_UF": "RN",
+        "latitude": -5.767270759,
+        "longitude": -37.5837690797
+    },
+    {
+        "CD_MUN": "2402402",
+        "NM_MUN": "Carna\u00faba dos Dantas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.5533020292,
+        "longitude": -36.5488018396
+    },
+    {
+        "CD_MUN": "2402501",
+        "NM_MUN": "Carnaubais",
+        "SIGLA_UF": "RN",
+        "latitude": -5.2640898096,
+        "longitude": -36.8572943456
+    },
+    {
+        "CD_MUN": "2402600",
+        "NM_MUN": "Cear\u00e1-Mirim",
+        "SIGLA_UF": "RN",
+        "latitude": -5.5954825775,
+        "longitude": -35.395223034
+    },
+    {
+        "CD_MUN": "2402709",
+        "NM_MUN": "Cerro Cor\u00e1",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9893693608,
+        "longitude": -36.3271566159
+    },
+    {
+        "CD_MUN": "2402808",
+        "NM_MUN": "Coronel Ezequiel",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3571987795,
+        "longitude": -36.1959038902
+    },
+    {
+        "CD_MUN": "2402907",
+        "NM_MUN": "Coronel Jo\u00e3o Pessoa",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2554763541,
+        "longitude": -38.4228144099
+    },
+    {
+        "CD_MUN": "2403004",
+        "NM_MUN": "Cruzeta",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3559364093,
+        "longitude": -36.8249866298
+    },
+    {
+        "CD_MUN": "2403103",
+        "NM_MUN": "Currais Novos",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2235769475,
+        "longitude": -36.4435558036
+    },
+    {
+        "CD_MUN": "2403202",
+        "NM_MUN": "Doutor Severiano",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1153749506,
+        "longitude": -38.4013728336
+    },
+    {
+        "CD_MUN": "2403251",
+        "NM_MUN": "Parnamirim",
+        "SIGLA_UF": "RN",
+        "latitude": -5.914328684,
+        "longitude": -35.2301200567
+    },
+    {
+        "CD_MUN": "2403301",
+        "NM_MUN": "Encanto",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1342263488,
+        "longitude": -38.3063534306
+    },
+    {
+        "CD_MUN": "2403400",
+        "NM_MUN": "Equador",
+        "SIGLA_UF": "RN",
+        "latitude": -6.8820164558,
+        "longitude": -36.6661506033
+    },
+    {
+        "CD_MUN": "2403509",
+        "NM_MUN": "Esp\u00edrito Santo",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3056587546,
+        "longitude": -35.3044849339
+    },
+    {
+        "CD_MUN": "2403608",
+        "NM_MUN": "Extremoz",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6809718491,
+        "longitude": -35.2686660805
+    },
+    {
+        "CD_MUN": "2403707",
+        "NM_MUN": "Felipe Guerra",
+        "SIGLA_UF": "RN",
+        "latitude": -5.5398176889,
+        "longitude": -37.6558883373
+    },
+    {
+        "CD_MUN": "2403756",
+        "NM_MUN": "Fernando Pedroza",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7605041568,
+        "longitude": -36.3921022555
+    },
+    {
+        "CD_MUN": "2403806",
+        "NM_MUN": "Flor\u00e2nia",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1697302537,
+        "longitude": -36.8183817362
+    },
+    {
+        "CD_MUN": "2403905",
+        "NM_MUN": "Francisco Dantas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0530105718,
+        "longitude": -38.1086329616
+    },
+    {
+        "CD_MUN": "2404002",
+        "NM_MUN": "Frutuoso Gomes",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1610183535,
+        "longitude": -37.8390433186
+    },
+    {
+        "CD_MUN": "2404101",
+        "NM_MUN": "Galinhos",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1757305601,
+        "longitude": -36.2079924202
+    },
+    {
+        "CD_MUN": "2404200",
+        "NM_MUN": "Goianinha",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2878332305,
+        "longitude": -35.2138382623
+    },
+    {
+        "CD_MUN": "2404309",
+        "NM_MUN": "Governador Dix-Sept Rosado",
+        "SIGLA_UF": "RN",
+        "latitude": -5.3950902356,
+        "longitude": -37.5367460417
+    },
+    {
+        "CD_MUN": "2404408",
+        "NM_MUN": "Grossos",
+        "SIGLA_UF": "RN",
+        "latitude": -4.947556772,
+        "longitude": -37.2104695155
+    },
+    {
+        "CD_MUN": "2404507",
+        "NM_MUN": "Guamar\u00e9",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1747674956,
+        "longitude": -36.3439478603
+    },
+    {
+        "CD_MUN": "2404606",
+        "NM_MUN": "Ielmo Marinho",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7841420949,
+        "longitude": -35.5504313214
+    },
+    {
+        "CD_MUN": "2404705",
+        "NM_MUN": "Ipangua\u00e7u",
+        "SIGLA_UF": "RN",
+        "latitude": -5.5382069575,
+        "longitude": -36.8026845145
+    },
+    {
+        "CD_MUN": "2404804",
+        "NM_MUN": "Ipueira",
+        "SIGLA_UF": "RN",
+        "latitude": -6.7741618369,
+        "longitude": -37.1863522575
+    },
+    {
+        "CD_MUN": "2404853",
+        "NM_MUN": "Itaj\u00e1",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6899814671,
+        "longitude": -36.8080298788
+    },
+    {
+        "CD_MUN": "2404903",
+        "NM_MUN": "Ita\u00fa",
+        "SIGLA_UF": "RN",
+        "latitude": -5.8184646506,
+        "longitude": -37.9165041426
+    },
+    {
+        "CD_MUN": "2405009",
+        "NM_MUN": "Ja\u00e7an\u00e3",
+        "SIGLA_UF": "RN",
+        "latitude": -6.410928744,
+        "longitude": -36.2145596481
+    },
+    {
+        "CD_MUN": "2405108",
+        "NM_MUN": "Janda\u00edra",
+        "SIGLA_UF": "RN",
+        "latitude": -5.3569987182,
+        "longitude": -36.1382433676
+    },
+    {
+        "CD_MUN": "2405207",
+        "NM_MUN": "Jandu\u00eds",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9961607112,
+        "longitude": -37.4748954758
+    },
+    {
+        "CD_MUN": "2405306",
+        "NM_MUN": "Janu\u00e1rio Cicco",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1519140634,
+        "longitude": -35.6005515026
+    },
+    {
+        "CD_MUN": "2405405",
+        "NM_MUN": "Japi",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4328260111,
+        "longitude": -35.8991067344
+    },
+    {
+        "CD_MUN": "2405504",
+        "NM_MUN": "Jardim de Angicos",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6137054981,
+        "longitude": -35.9867680142
+    },
+    {
+        "CD_MUN": "2405603",
+        "NM_MUN": "Jardim de Piranhas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.334505441,
+        "longitude": -37.2858911864
+    },
+    {
+        "CD_MUN": "2405702",
+        "NM_MUN": "Jardim do Serid\u00f3",
+        "SIGLA_UF": "RN",
+        "latitude": -6.5877438076,
+        "longitude": -36.806572576
+    },
+    {
+        "CD_MUN": "2405801",
+        "NM_MUN": "Jo\u00e3o C\u00e2mara",
+        "SIGLA_UF": "RN",
+        "latitude": -5.475375633,
+        "longitude": -35.8739262248
+    },
+    {
+        "CD_MUN": "2405900",
+        "NM_MUN": "Jo\u00e3o Dias",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2878794178,
+        "longitude": -37.8378995053
+    },
+    {
+        "CD_MUN": "2406007",
+        "NM_MUN": "Jos\u00e9 da Penha",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3405829644,
+        "longitude": -38.283049793
+    },
+    {
+        "CD_MUN": "2406106",
+        "NM_MUN": "Jucurutu",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0580253833,
+        "longitude": -37.0213959421
+    },
+    {
+        "CD_MUN": "2406155",
+        "NM_MUN": "Jundi\u00e1",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2563224379,
+        "longitude": -35.3403616406
+    },
+    {
+        "CD_MUN": "2406205",
+        "NM_MUN": "Lagoa d'Anta",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3847654656,
+        "longitude": -35.6262249051
+    },
+    {
+        "CD_MUN": "2406304",
+        "NM_MUN": "Lagoa de Pedras",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1924371315,
+        "longitude": -35.4508357503
+    },
+    {
+        "CD_MUN": "2406403",
+        "NM_MUN": "Lagoa de Velhos",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0104955264,
+        "longitude": -35.8443878546
+    },
+    {
+        "CD_MUN": "2406502",
+        "NM_MUN": "Lagoa Nova",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0924591972,
+        "longitude": -36.5191154564
+    },
+    {
+        "CD_MUN": "2406601",
+        "NM_MUN": "Lagoa Salgada",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1471943504,
+        "longitude": -35.5050415574
+    },
+    {
+        "CD_MUN": "2406700",
+        "NM_MUN": "Lajes",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6981969709,
+        "longitude": -36.1805987472
+    },
+    {
+        "CD_MUN": "2406809",
+        "NM_MUN": "Lajes Pintadas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1480663102,
+        "longitude": -36.1342214746
+    },
+    {
+        "CD_MUN": "2406908",
+        "NM_MUN": "Lucr\u00e9cia",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1035804089,
+        "longitude": -37.8243725133
+    },
+    {
+        "CD_MUN": "2407005",
+        "NM_MUN": "Lu\u00eds Gomes",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3733708473,
+        "longitude": -38.4026301801
+    },
+    {
+        "CD_MUN": "2407104",
+        "NM_MUN": "Maca\u00edba",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9268656922,
+        "longitude": -35.4287682621
+    },
+    {
+        "CD_MUN": "2407203",
+        "NM_MUN": "Macau",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1959696526,
+        "longitude": -36.5234547906
+    },
+    {
+        "CD_MUN": "2407252",
+        "NM_MUN": "Major Sales",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4051085142,
+        "longitude": -38.317644994
+    },
+    {
+        "CD_MUN": "2407302",
+        "NM_MUN": "Marcelino Vieira",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2803234273,
+        "longitude": -38.1573373953
+    },
+    {
+        "CD_MUN": "2407401",
+        "NM_MUN": "Martins",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0802281036,
+        "longitude": -37.905902004
+    },
+    {
+        "CD_MUN": "2407500",
+        "NM_MUN": "Maxaranguape",
+        "SIGLA_UF": "RN",
+        "latitude": -5.4515850321,
+        "longitude": -35.3544943649
+    },
+    {
+        "CD_MUN": "2407609",
+        "NM_MUN": "Messias Targino",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0899150951,
+        "longitude": -37.4801858847
+    },
+    {
+        "CD_MUN": "2407708",
+        "NM_MUN": "Montanhas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.5049261907,
+        "longitude": -35.2909240178
+    },
+    {
+        "CD_MUN": "2407807",
+        "NM_MUN": "Monte Alegre",
+        "SIGLA_UF": "RN",
+        "latitude": -6.098760883,
+        "longitude": -35.405064046
+    },
+    {
+        "CD_MUN": "2407906",
+        "NM_MUN": "Monte das Gameleiras",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4298792864,
+        "longitude": -35.8090318667
+    },
+    {
+        "CD_MUN": "2408003",
+        "NM_MUN": "Mossor\u00f3",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1758564091,
+        "longitude": -37.3255227565
+    },
+    {
+        "CD_MUN": "2408102",
+        "NM_MUN": "Natal",
+        "SIGLA_UF": "RN",
+        "latitude": -5.8031809749,
+        "longitude": -35.2288402103
+    },
+    {
+        "CD_MUN": "2408201",
+        "NM_MUN": "N\u00edsia Floresta",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0549297155,
+        "longitude": -35.1732227349
+    },
+    {
+        "CD_MUN": "2408300",
+        "NM_MUN": "Nova Cruz",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4486480156,
+        "longitude": -35.4289531635
+    },
+    {
+        "CD_MUN": "2408409",
+        "NM_MUN": "Olho d'\u00c1gua do Borges",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9789380135,
+        "longitude": -37.7101876705
+    },
+    {
+        "CD_MUN": "2408508",
+        "NM_MUN": "Ouro Branco",
+        "SIGLA_UF": "RN",
+        "latitude": -6.6835372512,
+        "longitude": -36.9210651981
+    },
+    {
+        "CD_MUN": "2408607",
+        "NM_MUN": "Paran\u00e1",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4510457426,
+        "longitude": -38.2842037021
+    },
+    {
+        "CD_MUN": "2408706",
+        "NM_MUN": "Para\u00fa",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7843940343,
+        "longitude": -37.1105554837
+    },
+    {
+        "CD_MUN": "2408805",
+        "NM_MUN": "Parazinho",
+        "SIGLA_UF": "RN",
+        "latitude": -5.2858332461,
+        "longitude": -35.9361952481
+    },
+    {
+        "CD_MUN": "2408904",
+        "NM_MUN": "Parelhas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.7138565887,
+        "longitude": -36.619479548
+    },
+    {
+        "CD_MUN": "2408953",
+        "NM_MUN": "Rio do Fogo",
+        "SIGLA_UF": "RN",
+        "latitude": -5.3772752124,
+        "longitude": -35.3999787631
+    },
+    {
+        "CD_MUN": "2409100",
+        "NM_MUN": "Passa e Fica",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4427418195,
+        "longitude": -35.6145385771
+    },
+    {
+        "CD_MUN": "2409209",
+        "NM_MUN": "Passagem",
+        "SIGLA_UF": "RN",
+        "latitude": -6.283824218,
+        "longitude": -35.3957113726
+    },
+    {
+        "CD_MUN": "2409308",
+        "NM_MUN": "Patu",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0868959025,
+        "longitude": -37.6213376826
+    },
+    {
+        "CD_MUN": "2409332",
+        "NM_MUN": "Santa Maria",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7889277332,
+        "longitude": -35.7204810497
+    },
+    {
+        "CD_MUN": "2409407",
+        "NM_MUN": "Pau dos Ferros",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1174104053,
+        "longitude": -38.1697483414
+    },
+    {
+        "CD_MUN": "2409506",
+        "NM_MUN": "Pedra Grande",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1460483953,
+        "longitude": -35.8735068311
+    },
+    {
+        "CD_MUN": "2409605",
+        "NM_MUN": "Pedra Preta",
+        "SIGLA_UF": "RN",
+        "latitude": -5.5245354384,
+        "longitude": -36.0795237756
+    },
+    {
+        "CD_MUN": "2409704",
+        "NM_MUN": "Pedro Avelino",
+        "SIGLA_UF": "RN",
+        "latitude": -5.4750467665,
+        "longitude": -36.3316249745
+    },
+    {
+        "CD_MUN": "2409803",
+        "NM_MUN": "Pedro Velho",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4652534865,
+        "longitude": -35.2245158185
+    },
+    {
+        "CD_MUN": "2409902",
+        "NM_MUN": "Pend\u00eancias",
+        "SIGLA_UF": "RN",
+        "latitude": -5.2929108298,
+        "longitude": -36.6239876488
+    },
+    {
+        "CD_MUN": "2410009",
+        "NM_MUN": "Pil\u00f5es",
+        "SIGLA_UF": "RN",
+        "latitude": -6.286597431,
+        "longitude": -38.0292168293
+    },
+    {
+        "CD_MUN": "2410108",
+        "NM_MUN": "Po\u00e7o Branco",
+        "SIGLA_UF": "RN",
+        "latitude": -5.5715198063,
+        "longitude": -35.6943515474
+    },
+    {
+        "CD_MUN": "2410207",
+        "NM_MUN": "Portalegre",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0328758457,
+        "longitude": -38.0149839084
+    },
+    {
+        "CD_MUN": "2410256",
+        "NM_MUN": "Porto do Mangue",
+        "SIGLA_UF": "RN",
+        "latitude": -5.088333758,
+        "longitude": -36.8415155477
+    },
+    {
+        "CD_MUN": "2410306",
+        "NM_MUN": "Serra Caiada",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1092280061,
+        "longitude": -35.7235290648
+    },
+    {
+        "CD_MUN": "2410405",
+        "NM_MUN": "Pureza",
+        "SIGLA_UF": "RN",
+        "latitude": -5.4072981754,
+        "longitude": -35.582145466
+    },
+    {
+        "CD_MUN": "2410504",
+        "NM_MUN": "Rafael Fernandes",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1968138164,
+        "longitude": -38.2237423616
+    },
+    {
+        "CD_MUN": "2410603",
+        "NM_MUN": "Rafael Godeiro",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0690783892,
+        "longitude": -37.73022062
+    },
+    {
+        "CD_MUN": "2410702",
+        "NM_MUN": "Riacho da Cruz",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9235926556,
+        "longitude": -37.9664331412
+    },
+    {
+        "CD_MUN": "2410801",
+        "NM_MUN": "Riacho de Santana",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2770057315,
+        "longitude": -38.3361253988
+    },
+    {
+        "CD_MUN": "2410900",
+        "NM_MUN": "Riachuelo",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7984427042,
+        "longitude": -35.849589807
+    },
+    {
+        "CD_MUN": "2411007",
+        "NM_MUN": "Rodolfo Fernandes",
+        "SIGLA_UF": "RN",
+        "latitude": -5.8584963617,
+        "longitude": -38.0809280751
+    },
+    {
+        "CD_MUN": "2411056",
+        "NM_MUN": "Tibau",
+        "SIGLA_UF": "RN",
+        "latitude": -4.8883742449,
+        "longitude": -37.3209877384
+    },
+    {
+        "CD_MUN": "2411106",
+        "NM_MUN": "Ruy Barbosa",
+        "SIGLA_UF": "RN",
+        "latitude": -5.856862983,
+        "longitude": -35.9405178483
+    },
+    {
+        "CD_MUN": "2411205",
+        "NM_MUN": "Santa Cruz",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2482631047,
+        "longitude": -36.0064870099
+    },
+    {
+        "CD_MUN": "2411403",
+        "NM_MUN": "Santana do Matos",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9043703668,
+        "longitude": -36.6346241829
+    },
+    {
+        "CD_MUN": "2411429",
+        "NM_MUN": "Santana do Serid\u00f3",
+        "SIGLA_UF": "RN",
+        "latitude": -6.732243333,
+        "longitude": -36.7651302385
+    },
+    {
+        "CD_MUN": "2411502",
+        "NM_MUN": "Santo Ant\u00f4nio",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3394807969,
+        "longitude": -35.5054050173
+    },
+    {
+        "CD_MUN": "2411601",
+        "NM_MUN": "S\u00e3o Bento do Norte",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1441329007,
+        "longitude": -35.9890625805
+    },
+    {
+        "CD_MUN": "2411700",
+        "NM_MUN": "S\u00e3o Bento do Trair\u00ed",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3832213289,
+        "longitude": -36.0484683629
+    },
+    {
+        "CD_MUN": "2411809",
+        "NM_MUN": "S\u00e3o Fernando",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3213598203,
+        "longitude": -37.1511571683
+    },
+    {
+        "CD_MUN": "2411908",
+        "NM_MUN": "S\u00e3o Francisco do Oeste",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9851789972,
+        "longitude": -38.1837909296
+    },
+    {
+        "CD_MUN": "2412005",
+        "NM_MUN": "S\u00e3o Gon\u00e7alo do Amarante",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7877440282,
+        "longitude": -35.3648078257
+    },
+    {
+        "CD_MUN": "2412104",
+        "NM_MUN": "S\u00e3o Jo\u00e3o do Sabugi",
+        "SIGLA_UF": "RN",
+        "latitude": -6.6904201384,
+        "longitude": -37.1885067987
+    },
+    {
+        "CD_MUN": "2412203",
+        "NM_MUN": "S\u00e3o Jos\u00e9 de Mipibu",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0640097866,
+        "longitude": -35.2894158138
+    },
+    {
+        "CD_MUN": "2412302",
+        "NM_MUN": "S\u00e3o Jos\u00e9 do Campestre",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3011258222,
+        "longitude": -35.7401738887
+    },
+    {
+        "CD_MUN": "2412401",
+        "NM_MUN": "S\u00e3o Jos\u00e9 do Serid\u00f3",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4866392023,
+        "longitude": -36.8585036508
+    },
+    {
+        "CD_MUN": "2412500",
+        "NM_MUN": "S\u00e3o Miguel",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2143651739,
+        "longitude": -38.4742848121
+    },
+    {
+        "CD_MUN": "2412559",
+        "NM_MUN": "S\u00e3o Miguel do Gostoso",
+        "SIGLA_UF": "RN",
+        "latitude": -5.1940051621,
+        "longitude": -35.7371984798
+    },
+    {
+        "CD_MUN": "2412609",
+        "NM_MUN": "S\u00e3o Paulo do Potengi",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9340437563,
+        "longitude": -35.75443044
+    },
+    {
+        "CD_MUN": "2412708",
+        "NM_MUN": "S\u00e3o Pedro",
+        "SIGLA_UF": "RN",
+        "latitude": -5.8925656189,
+        "longitude": -35.6303325034
+    },
+    {
+        "CD_MUN": "2412807",
+        "NM_MUN": "S\u00e3o Rafael",
+        "SIGLA_UF": "RN",
+        "latitude": -5.8374050965,
+        "longitude": -36.8785112435
+    },
+    {
+        "CD_MUN": "2412906",
+        "NM_MUN": "S\u00e3o Tom\u00e9",
+        "SIGLA_UF": "RN",
+        "latitude": -5.988218358,
+        "longitude": -36.1285750769
+    },
+    {
+        "CD_MUN": "2413003",
+        "NM_MUN": "S\u00e3o Vicente",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2076872319,
+        "longitude": -36.6598168415
+    },
+    {
+        "CD_MUN": "2413102",
+        "NM_MUN": "Senador El\u00f3i de Souza",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0412655572,
+        "longitude": -35.6824922673
+    },
+    {
+        "CD_MUN": "2413201",
+        "NM_MUN": "Senador Georgino Avelino",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1578718382,
+        "longitude": -35.1214053904
+    },
+    {
+        "CD_MUN": "2413300",
+        "NM_MUN": "Serra de S\u00e3o Bento",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4286417967,
+        "longitude": -35.7189341783
+    },
+    {
+        "CD_MUN": "2413359",
+        "NM_MUN": "Serra do Mel",
+        "SIGLA_UF": "RN",
+        "latitude": -5.171294754,
+        "longitude": -37.0242255853
+    },
+    {
+        "CD_MUN": "2413409",
+        "NM_MUN": "Serra Negra do Norte",
+        "SIGLA_UF": "RN",
+        "latitude": -6.587382642,
+        "longitude": -37.3600259082
+    },
+    {
+        "CD_MUN": "2413508",
+        "NM_MUN": "Serrinha",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2551285798,
+        "longitude": -35.5743603852
+    },
+    {
+        "CD_MUN": "2413557",
+        "NM_MUN": "Serrinha dos Pintos",
+        "SIGLA_UF": "RN",
+        "latitude": -6.1444963038,
+        "longitude": -37.9930691447
+    },
+    {
+        "CD_MUN": "2413607",
+        "NM_MUN": "Severiano Melo",
+        "SIGLA_UF": "RN",
+        "latitude": -5.7691978466,
+        "longitude": -37.9727083606
+    },
+    {
+        "CD_MUN": "2413706",
+        "NM_MUN": "S\u00edtio Novo",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0879693115,
+        "longitude": -35.9273034742
+    },
+    {
+        "CD_MUN": "2413805",
+        "NM_MUN": "Taboleiro Grande",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9358427181,
+        "longitude": -38.0511533207
+    },
+    {
+        "CD_MUN": "2413904",
+        "NM_MUN": "Taipu",
+        "SIGLA_UF": "RN",
+        "latitude": -5.5967121043,
+        "longitude": -35.5852053456
+    },
+    {
+        "CD_MUN": "2414001",
+        "NM_MUN": "Tangar\u00e1",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2169856277,
+        "longitude": -35.8352926164
+    },
+    {
+        "CD_MUN": "2414100",
+        "NM_MUN": "Tenente Ananias",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4406180728,
+        "longitude": -38.1638883327
+    },
+    {
+        "CD_MUN": "2414159",
+        "NM_MUN": "Tenente Laurentino Cruz",
+        "SIGLA_UF": "RN",
+        "latitude": -6.159086423,
+        "longitude": -36.7226963071
+    },
+    {
+        "CD_MUN": "2414209",
+        "NM_MUN": "Tibau do Sul",
+        "SIGLA_UF": "RN",
+        "latitude": -6.2416894478,
+        "longitude": -35.0998174335
+    },
+    {
+        "CD_MUN": "2414308",
+        "NM_MUN": "Timba\u00faba dos Batistas",
+        "SIGLA_UF": "RN",
+        "latitude": -6.4776948412,
+        "longitude": -37.2472068891
+    },
+    {
+        "CD_MUN": "2414407",
+        "NM_MUN": "Touros",
+        "SIGLA_UF": "RN",
+        "latitude": -5.2810235252,
+        "longitude": -35.6079783924
+    },
+    {
+        "CD_MUN": "2414456",
+        "NM_MUN": "Triunfo Potiguar",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9183968367,
+        "longitude": -37.1515520966
+    },
+    {
+        "CD_MUN": "2414506",
+        "NM_MUN": "Umarizal",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9919845628,
+        "longitude": -37.8326106921
+    },
+    {
+        "CD_MUN": "2414605",
+        "NM_MUN": "Upanema",
+        "SIGLA_UF": "RN",
+        "latitude": -5.6101052567,
+        "longitude": -37.2919665691
+    },
+    {
+        "CD_MUN": "2414704",
+        "NM_MUN": "V\u00e1rzea",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3514599764,
+        "longitude": -35.3683919124
+    },
+    {
+        "CD_MUN": "2414753",
+        "NM_MUN": "Venha-Ver",
+        "SIGLA_UF": "RN",
+        "latitude": -6.320719349,
+        "longitude": -38.5267798103
+    },
+    {
+        "CD_MUN": "2414803",
+        "NM_MUN": "Vera Cruz",
+        "SIGLA_UF": "RN",
+        "latitude": -6.0371957503,
+        "longitude": -35.4355283303
+    },
+    {
+        "CD_MUN": "2414902",
+        "NM_MUN": "Vi\u00e7osa",
+        "SIGLA_UF": "RN",
+        "latitude": -5.9870570504,
+        "longitude": -37.955024487
+    },
+    {
+        "CD_MUN": "2415008",
+        "NM_MUN": "Vila Flor",
+        "SIGLA_UF": "RN",
+        "latitude": -6.3028194109,
+        "longitude": -35.0870623784
+    }
+]

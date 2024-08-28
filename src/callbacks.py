@@ -65,5 +65,5 @@ def update_graficos(ano: int, mes: int) -> tuple:
 )
 def update_mapa(ano: int, mes: int) -> tuple:
     return grafico.mapa(
-        "setor", "entrada", "setor", {"setor": "País", "entrada": "Visitas"}, ano, mes
+        "setor", "entrada", "setor", {"setor": "Municipio", "entrada": "Visitas"}, ano, mes
     )

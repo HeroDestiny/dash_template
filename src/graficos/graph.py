@@ -1,8 +1,8 @@
 import calendar
 import locale
-
+import json
 import pandas as pd
-import geopandas as gpd
+
 import plotly.express as px
 
 locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
@@ -93,15 +93,26 @@ class Grafico:
     ) -> px.scatter_geo:
         
         df_filtrado = self.filtrar(ano, mes)
+
         contagem = self.contar(df_filtrado, group, valor)
-        return px.scatter_geo(
+        # print(contagem)
+        # Carregar dados GeoJSON
+        with open('mapa/geojs-24-mun.json', 'r', encoding='utf-8') as file:
+            geojson_data = json.load(file)
+
+        return px.choropleth_mapbox(
             contagem,
+            geojson=geojson_data,
             locations=nome,
-            locationmode="ISO-3",
-            color=nome,
-            size=valor,
+            featureidkey="properties.name",
+            color=valor,
+            # color_continuous_scale=px.colors.sequential.Blues,
+            # color_discrete_sequence=px.colors.qualitative.Safe,
+            mapbox_style="carto-positron",
             labels=rotulos,
-            scope="south america",
+            center={"lat": -5.9, "lon": -36.5},
+            zoom=6,
+
         )
 
     def contagem(self, texto: str, ano: int = None, mes: int = None) -> str:
