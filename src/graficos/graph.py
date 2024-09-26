@@ -36,9 +36,15 @@ class Grafico:
         return df.groupby(group).size().reset_index(name=nome)
 
     def pizza(
-        self, nome: str, valor: str, label_nome: str, ano: int = None, mes: int = None
+        self,
+        nome: str,
+        valor: str,
+        label_nome: str,
+        ano: int = None,
+        mes: int = None,
+        setor: str = None,
     ) -> px.pie:
-        df_filtrado = self.filtrar(ano, mes)
+        df_filtrado = self.filtrar(ano, mes, setor)
         contagem = self.contar(df_filtrado, nome, valor)
         return px.pie(contagem, names=nome, values=valor, labels={nome: label_nome})
 

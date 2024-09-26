@@ -2,10 +2,10 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 
-# Inicializando o aplicativo Dash com o tema SANDSTONE
+# Inicializando o aplicativo Dash com o tema VAPOR
 app = dash.Dash(
     __name__,
-    external_stylesheets=[dbc.themes.SANDSTONE],
+    external_stylesheets=[dbc.themes.SUPERHERO],
     use_pages=True,
     suppress_callback_exceptions=True,
 )

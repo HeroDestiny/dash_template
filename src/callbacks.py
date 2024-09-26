@@ -69,10 +69,14 @@ def update_grafico_mes(ano: int, mes: int) -> tuple:
 
 @app.callback(
     Output("grafico-total", "figure"),
-    [Input("ano-dropdown", "value"), Input("mes-dropdown", "value")],
+    [
+        Input("ano-dropdown", "value"),
+        Input("mes-dropdown", "value"),
+        Input("setor-dropdown", "value"),
+    ],
 )
-def update_grafico_total(ano: int, mes: int) -> tuple:
-    return grafico.pizza("setor", "entrada", "País", ano, mes)
+def update_grafico_total(ano: int, mes: int, setor: str) -> tuple:
+    return grafico.pizza("setor", "entrada", "País", ano, mes, setor)
 
 
 @app.callback(
