@@ -75,9 +75,7 @@ layout = html.Div(
                                 dbc.Card(
                                     dbc.CardBody(
                                         [
-                                            html.H4(
-                                                "Mapa", className="card-title"
-                                            ),
+                                            html.H4("Mapa", className="card-title"),
                                             dcc.Graph(id="grafico-mapa"),
                                         ]
                                     )

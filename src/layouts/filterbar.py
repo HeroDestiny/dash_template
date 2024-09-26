@@ -50,5 +50,20 @@ def filter_bar():
                 ],
                 width=2,
             ),
+            dbc.Col(
+                [
+                    dbc.Label("Selecione o Setor:"),
+                    dcc.Dropdown(
+                        id="setor-dropdown",
+                        options=[
+                            {"label": str(setor), "value": setor}
+                            for setor in df["setor"].unique()
+                        ],
+                        placeholder="Selecione o setor",
+                        className="mb-3",
+                    ),
+                ],
+                width=2,
+            ),
         ],
     )

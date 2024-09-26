@@ -26,33 +26,16 @@ def update_ui(pathname):
     return [filter_bar_content] + active_states
 
 
-# chamada de função para atualizar os gráficos
 @app.callback(
     [
-        Output("grafico-total", "figure"),
-        Output("grafico-mes", "figure"),
-        Output("grafico-timeline", "figure"),
         Output("entradas-texto", "children"),
         Output("mes-texto", "children"),
         Output("ano-texto", "children"),
     ],
     [Input("ano-dropdown", "value"), Input("mes-dropdown", "value")],
 )
-def update_graficos(ano: int, mes: int) -> tuple:
+def update_texto_entradas(ano: int, mes: int) -> tuple:
     return (
-        grafico.pizza("setor", "entrada", "País", ano, mes),
-        # grafico_barra("data", "entrada", "Data", "Entradas", "data", ano, mes),
-        grafico.barra(
-            "data", "entrada", "data", {"data": "Data", "entrada": "Entradas"}, ano, mes
-        ),
-        grafico.timeline(
-            "data",
-            "entrada",
-            ["setor", "data"],
-            {"setor": "País", "data": "Data", "entrada": "Número de Entradas"},
-            "setor",
-            ano,
-        ),
         grafico.contagem("Total de Entradas:", ano, mes),
         grafico.texto("Mês:", mes),
         grafico.texto("Ano:", ano),
@@ -60,10 +43,53 @@ def update_graficos(ano: int, mes: int) -> tuple:
 
 
 @app.callback(
-    Output("grafico-mapa", "figure"),
+    Output("grafico-timeline", "figure"),
     [Input("ano-dropdown", "value"), Input("mes-dropdown", "value")],
 )
-def update_mapa(ano: int, mes: int) -> tuple:
+def update_grafico_timeline(ano: int, mes: int) -> tuple:
+    return grafico.timeline(
+        "data",
+        "entrada",
+        ["setor", "data"],
+        {"setor": "País", "data": "Data", "entrada": "Número de Entradas"},
+        "setor",
+        ano,
+    )
+
+
+@app.callback(
+    Output("grafico-mes", "figure"),
+    [Input("ano-dropdown", "value"), Input("mes-dropdown", "value")],
+)
+def update_grafico_mes(ano: int, mes: int) -> tuple:
+    return grafico.barra(
+        "data", "entrada", "data", {"data": "Data", "entrada": "Entradas"}, ano, mes
+    )
+
+
+@app.callback(
+    Output("grafico-total", "figure"),
+    [Input("ano-dropdown", "value"), Input("mes-dropdown", "value")],
+)
+def update_grafico_total(ano: int, mes: int) -> tuple:
+    return grafico.pizza("setor", "entrada", "País", ano, mes)
+
+
+@app.callback(
+    Output("grafico-mapa", "figure"),
+    [
+        Input("ano-dropdown", "value"),
+        Input("mes-dropdown", "value"),
+        Input("setor-dropdown", "value"),
+    ],
+)
+def update_mapa(ano: int, mes: int, setor: str) -> tuple:
     return grafico.mapa(
-        "setor", "entrada", "setor", {"setor": "Municipio", "entrada": "Visitas"}, ano, mes
+        "setor",
+        "entrada",
+        "setor",
+        {"setor": "Municipio", "entrada": "Visitas"},
+        ano,
+        mes,
+        setor,
     )
